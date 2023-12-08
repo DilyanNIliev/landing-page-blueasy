@@ -1,0 +1,43 @@
+/*set background color*/
+section.thumbnails {
+	background-color: #4bcaff
+}
+
+section.thumbnails h2 {
+	margin-bottom: 100px;
+}
+
+section.thumbnails > .shell > .container {
+	position: relative;
+}
+
+/*set position of all icons*/
+.container > .row > .thumbnail > .icon {
+	position: absolute;
+	top: 145px;
+}
+
+/*set img for every icon*/
+.container > .row > .thumbnail > .icon.coffee {
+	background-image: url(../img/coffee.png);
+	width: 34px;
+	height: 48px
+}
+
+.container > .row > .thumbnail > .icon.frame {
+	background-image: url(../img/frame.png);
+	width: 48px;
+	height: 49px
+}
+
+.container > .row > .thumbnail > .icon.serius {
+	background-image: url(../img/serius.png);
+	width: 47px;
+	height: 45px
+}
+
+.container > .row > .thumbnail > .icon.instant {
+	background-image: url(../img/instant.png);
+	width: 48px;
+	height: 48px
+}

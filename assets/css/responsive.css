@@ -1,0 +1,327 @@
+@media only screen and (max-width: 600px) {
+
+	h1, 
+	header > .carousel > .shell > span {
+		font-size: 1.7em;
+		padding-left: 5px;
+	}
+
+	h2, 
+	h3, 
+	h4 {
+		padding-left: 5px;
+	}
+
+	header nav	{
+		display: block;
+		position: fixed;
+		margin-top: 100px;
+		width: 100%;
+		min-width: 300px;
+		top: 0;
+		right: -100%;
+		bottom: 0;
+		padding: 10px 0;
+		background-color: #353f46;
+		z-index: 100;
+	}
+
+	.transperant-section nav[js-navigation]	{
+		display: block;
+		position: fixed;
+		width: 100%;
+		margin-top: 80px;
+		min-width: 300px;
+		top: 0;
+		right: -100%;
+		bottom: 0;
+		padding: 40px 0;
+		background-color: #353f46;
+		z-index: 100;
+	}
+
+	header nav.open {
+		right: 0;
+	}
+
+	.transperant-section nav.open[js-navigation] {
+		right: 0;
+	}
+
+	header nav > ul > li,
+	.transperant-section nav > ul > li {
+		float: none;
+		height: auto;
+		padding: 0;
+		text-align: center;
+		margin-right: 0;
+	}
+
+	header nav > ul > li:hover a,
+	.transperant-section nav > ul > li:hover a {
+		padding: 12px 14px 12px; 
+	}
+
+	header nav > ul > li:hover,
+	.transperant-section nav > ul > li:hover {
+		padding: 0;
+		opacity: 0.5;
+	}
+
+	header nav > ul > li:hover,
+	header nav > ul > li:hover a,
+	header nav > ul > li.active,
+	.transperant-section nav > ul > li:hover,
+	.transperant-section nav > ul > li:hover a,
+	.transperant-section nav > ul > li.active {
+		font-size: 1em;
+		border: none;
+		color: #fff;
+	}
+
+	header nav > ul > li.active,
+	.transperant-section nav > ul > li.active {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	header nav > ul > li .fa-menu,
+	.transperant-section nav > ul > li .fa-menu {
+		display: block;
+		margin-right: 10px;
+		text-align: center;
+		font-size: 10px;
+		transition: .3s;
+	}
+
+	header nav > ul > li a,
+	header nav > ul > li span,
+	header nav > ul > li a,
+	header nav > ul > li span,
+	.transperant-section nav > ul > li a,
+	.transperant-section nav > ul > li span,
+	.transperant-section nav > ul > li a,
+	.transperant-section nav > ul > li span {
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	div.mobile-menu,
+	div.second-mobile-menu {
+		font-size: 2em;
+		color: #fff;
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 50px;
+		text-align: center;
+		display: table;
+		transition: 0.3s;
+
+	}
+
+	div.second-mobile-menu {
+		top: 90px;
+		z-index: 100;
+
+
+	}
+
+	div.mobile-menu i.fa-bars,
+	div.second-mobile-menu i.fa-bars {
+		cursor: pointer;
+		position: absolute;
+		z-index: 100;
+		left: 13px;
+		top: 0px;
+
+
+	}
+
+	div.mobile-menu i.fa-times,
+	div.second-mobile-menu i.fa-times {
+		opacity: 1;
+		cursor: pointer;
+
+	}
+
+	div.mobile-menu.open > i.fa-bars {
+		opacity: 0;
+	}
+
+	div.mobile-menu.open > i.fa-times {
+		opacity: 1;
+		position: absolute;
+		top: -10px;
+		right: 10px;
+		font-size: 35px;
+
+	}
+
+	.second-mobile-menu i.fa-times {
+		opacity: 1;
+		position: fixed;
+		top: -85px;
+		right: 10px;
+		font-size: 35px;
+
+	}
+
+	div.second-mobile-menu.open body {
+		overflow: hidden
+	}
+
+	div.second-mobile-menu.open > i.fa-bars {
+		opacity: 0;
+		top: -10px;
+	}
+
+	div.second-mobile-menu i {
+		color: #4bcaff;
+	}
+
+
+
+	h1, 
+	header > .carousel > .shell > span {
+		font-size: 1.7em;
+		padding: 0 5px;
+	}
+
+	header > .carousel {
+		padding-bottom: 40px;
+	}
+
+	section.thumbnails h2 {
+		padding-top: 1em;
+		margin-bottom: 4em;
+	}
+
+	.container > .row > .thumbnail > .icon {
+		top: 110px;
+	}
+
+	.thumbnails > .shell > .container > .row > .thumbnail p {
+		padding-bottom: 60px;
+	}
+
+
+	.container > .row > .thumbnail > .icon.frame {
+		top: 665px;
+	}
+	
+	.container > .row > .thumbnail > .icon.serius {
+		top: 490px
+	}
+	
+	.container > .row > .thumbnail > .icon.instant {
+		top: 300px;
+	}
+
+	.video img {
+		width: 80%;
+		padding-left: 10px; 
+	}
+
+	.background-image-section > .shell > .container > .row p:nth-child(2) {
+		padding-bottom: 20px!important;
+	}
+
+	.background-image-section h2 {
+		padding-top: 20px;
+	}
+
+	.background-image-section > .shell > .container > .row > div:nth-child(2) {
+		padding-bottom: 40px;
+	}
+
+	.contact-section textarea {
+		width: 280px;
+		height: 150px;
+
+	}
+
+	.contact-section input {
+		
+		width: 280px;
+		height: 30px;
+		
+	}
+
+	.contact-section a.submit-btn {
+		padding: 16px 66px;
+	}
+
+	.contact-section h2 {
+		padding-top: 40px;
+	}
+
+	.contact-section a.submit-btn {
+		padding: 16px 24px;
+	}
+
+	.transperant-section > .shell {
+		padding: 5px;
+	}
+
+	.blue-section > .shell > i.ico-twitter {
+		right: 5px;
+	}
+
+	.overlay {
+		left: 48px;
+	}
+
+	.image {
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+	}
+
+	footer {
+		padding: 10px;
+	}
+
+	footer > .shell > nav > ul > li a {
+		font-size: 0.8em;
+	}
+
+	header nav > ul > li.active {
+
+	margin-top: 40px;
+}
+
+	.mobile-menu-close i {
+		opacity: 1;
+		position: absolute;
+		color: #fff;
+		z-index: 100;
+		cursor: pointer;
+		right: 40px;
+		font-size: 25px;
+	}
+
+	.blue-section > .shell > p {
+		padding-left: 5px;
+	}
+
+	.transperant-section nav > ul > li > a {
+		color: #fff;
+	}
+}
+
+
+@media only screen and (max-width: 380px) {
+	.container > .row > .thumbnail > .icon.instant {
+		top: 320px;
+	}
+
+	.container > .row > .thumbnail > .icon.serius {
+		top: 530px;
+	}
+
+	.container > .row > .thumbnail > .icon.frame {
+    	top: 730px;
+	}
+}

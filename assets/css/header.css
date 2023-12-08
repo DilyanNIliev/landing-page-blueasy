@@ -1,0 +1,117 @@
+/* background image*/
+header {
+	padding-top: 150px;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+header > .layout {
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(53, 63, 70, 0.5);
+}
+
+
+/*Logo*/
+#logo {
+	height: 100%;
+	margin-top: 65px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#logo > img {
+	height: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+
+/*Navigation*/
+
+header nav {
+	display: inline-block;
+	height: 100%;
+	float: right;
+	margin-top: 60px;
+}
+
+header:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+header nav > ul {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+header nav > ul:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+header nav > ul > li {
+	float: left;
+	height: 100%;
+	margin-right: 20px;
+
+}
+
+header nav > ul > li:nth-child(5) {
+	margin-right: 0;
+}
+
+header nav > ul > li > span,
+header nav > ul > li > a {
+	height: 100%;
+	display: table;
+	padding: 12px 17px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+}
+
+header nav > ul > li > span > span,
+header nav > ul > li > a > span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+header nav > ul > li > span {
+	color: #4bcaff;
+	font-weight: bold;
+}
+
+header nav > ul > li:hover {
+	color: #4bcaff;
+	border: 2px solid #4bcaff;
+	box-sizing: border-box;
+}
+
+header nav > ul > li:hover a {
+	padding: 10px 15px 14px; 
+	color: #4bcaff;
+}
+
+header nav > ul > li.active {
+	color: #4bcaff;
+	border: 2px solid #4bcaff;
+}
+
+header .mobile-menu {
+	display: none;
+}
+
+header .fa-times {
+	opacity: 0;
+}
+
+

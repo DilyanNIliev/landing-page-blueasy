@@ -1,0 +1,75 @@
+section.background-image-section {
+	background-image: url(../img/background-image.jpg);
+}
+
+section.background-image-section > .shell > .container > .row p:nth-child(2) {
+	padding-bottom: 170px;
+}
+
+section.background-image-section > .shell > .container > .row > div:nth-child(2) > p {
+
+	padding-bottom: 40px;
+}
+
+section.background-image-section > .shell > .container > .row i {
+	font-size: 0;
+	line-height: 0;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 32px;
+	margin-right: 20px;
+	position: relative;
+
+}
+
+section.background-image-section > .shell > .container > .row i:hover {
+
+	border: 2px solid #4bcaff;
+}
+
+section.background-image-section > .shell > .container > .row i a {
+	position: absolute;
+	left: 20px;
+}
+
+section.background-image-section > .shell > .container > .row i a.twitter {
+	background-image: url(../img/twitter.png);
+	width: 26px; 
+	height: 22px;
+}
+section.background-image-section > .shell > .container > .row i a.google-plus {
+	background-image: url(../img/google-plus.png);
+	width: 28px; 
+	height: 31px;
+}
+section.background-image-section > .shell > .container > .row i a.basketball {
+	background-image: url(../img/basketball.png);
+	width: 26px; 
+	height: 26px;
+}
+section.background-image-section > .shell > .container > .row i a.coffee {
+	background-image: url(../img/coffee-small.png);
+	width: 31px; 
+	height: 24px;
+}
+
+section.background-image-section > .shell > .container > .row i:hover a.coffee {
+
+	background-image: url(../img/coffee-hover.png);
+}
+
+section.background-image-section > .shell > .container > .row i:hover a.google-plus {
+
+	background-image: url(../img/google-plus-hover.png);
+}
+
+section.background-image-section > .shell > .container > .row i:hover a.basketball {
+
+	background-image: url(../img/basketball-hover.png);
+}
+
+section.background-image-section > .shell > .container > .row i:hover a.twitter {
+
+	background-image: url(../img/twitter-hover.png);
+}
+

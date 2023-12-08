@@ -1,0 +1,56 @@
+.contact-section {
+	background-image: url(../img/contact-background.jpg);
+}
+
+.contact-section label {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.contact-section form {
+	position: relative;
+}
+
+.contact-section input {
+	background-color: transparent;
+	width: 470px;
+	height: 60px;
+	border: 2px solid #fff;
+	margin: 5px 0 35px;
+	color: #fff;
+	font-size: 1.5em
+}
+
+.contact-section address {
+	color: #fff;
+	line-height: 24px;
+}
+
+.contact-section textarea {
+	border: 2px solid #fff;
+	background-color: transparent;
+	width: 1180px;
+	height: 225px;
+	resize: none;
+	margin: 5px 0 140px;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.contact-section a.submit-btn {
+	background-color: #4bcaff;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 16px 166px;
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	text-decoration: none;
+
+}
+
+.contact-section a.submit-btn:hover {
+	background-color: #353f47;
+}

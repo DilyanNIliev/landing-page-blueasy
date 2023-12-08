@@ -1,0 +1,32 @@
+.blue-section { 
+	background-color: #4bcaff;
+
+ }
+
+ .blue-section > .shell {
+ 	position: relative;
+ }
+
+.blue-section > .shell > i.ico-twitter {
+	position: absolute;
+	right: 0;
+	top: 80px;
+	background-image: url(../img/twitter.png);
+	font-size: 0;
+	line-height: 0;
+	width: 26px;
+	height: 22px;
+}
+
+.blue-section > .shell > p {
+	font-size: 28px; 
+	line-height: 50px;
+	font-weight: 300;
+	padding-bottom: 70px;
+}
+
+.blue-section > .shell > p > strong {
+	font-weight: bold;
+}
+
+
